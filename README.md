@@ -29,7 +29,7 @@
 - A viable alternative to using Sonos for whole-home, multi-room synchronized audio, streaming music and home automation notifications using Music Assistant.
 - Part of a planned series modifying a range of speakers at multiple price points and corresponding sound quality.
   — see [What's Next](#whats-next) for planned future builds.
-- **An option to purchase pre-assembled** for those wanting a commercially available speaker.
+- An [option to purchase](#option-to-purchase---already-assembled) pre-assembled for those wanting a commercially available speaker. 
 
 **This is NOT:**
 
