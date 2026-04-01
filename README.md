@@ -9,12 +9,13 @@
 
 ## Table of Contents
 
-- [What This Is](#what-this-is--and-what-it-isnt)
+- [What This Is](#what-this-is)
 - [Motivation](#motivation)
+- [Option to Purchase - Already Assembled](#option-to-purchase---already-assembled)
 - [Caveats & Limitations](#caveats--limitations)
 - [Parts & Materials](#parts--materials)
 - [Tools Required](#tools-required)
-- [Build Time](#wiring-diagram)
+- [Build Time](#build-time)
 - [Step-by-Step Build Guide](#step-by-step-build-guide)
 - [What's Next](#whats-next)
 - [Credits & References](#credits--references)
@@ -33,7 +34,10 @@
 **This is NOT:**
 
 - A project that requires wood working skills to build a speaker cabinet from scratch.  At most, you may need to drill a single hole into a wood cabinet - or have someone 3D print a small plate for you.
+
 - A smart speaker. Stay tuned for a future build this year. We will likely use this same speaker and the modifications to add smart speaker capabilities compatible with Home Assistant Voice Preview could be minimal.
+
+  
 
 ---
 
@@ -52,6 +56,22 @@ We get it.  We hear you.  Something...cheaper, faster to build.
 Our version 2 started with the lowest cost, passive speaker we could find available at Amazon, Walmart, etc.  $35 for a pair.
 
 This is a single-driver, compact - and very decent sounding - speaker for desktop music and TTS notifications. It's even ideal for larger rooms if you're primary goal is a low cost speaker for just notifications.  Quick and easy to integrate with firmware designed specifically for use with Home Assistant. No lock-ins, proprietary interfaces or custom integrations that may, or may not be around in 2-3 years.
+
+
+
+---
+
+## Option to Purchase - Already Assembled
+
+My motivation is not completely altruistic.
+
+I'm hoping to start a company.  During my research, I found commenters on DIY forums asking for assembled options - some even offering to pay OPs to "build me one please,"
+
+So this is my boot strap option with a commitment to remain open source.  I am specifically creating speakers for use exclusively with Home Assistant and based on existing off-the-shelf speaker models that can be easily modified by the DIYer.  For those individuals who would prefer to purchase a speaker fully assembled and tested, well...that's the market I'd like to help with...I want to be the RATGDO of the Sonos market space.
+
+My commercial site will be [GetHouseWaves.com]() with contact forms and details to order direct.
+
+And at least initially, I will be selling through Etsy and will add links here when they are ready. 
 
 
 
