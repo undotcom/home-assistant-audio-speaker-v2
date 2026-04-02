@@ -315,7 +315,7 @@ Also note - you are able to flash and reflash the ESP32 board with any of the av
 
 ## What's Next
 
-This is **Build #1** in a planned series of passive-to-active speaker conversions — a DIY Sonos alternative using ESP32 and Music Assistant across multiple rooms.
+This is **Build #2** in a planned series of passive-to-active speaker conversions — a DIY Sonos alternative using ESP32 and Music Assistant across multiple rooms.
 
 | Build | Speaker                                                      | Status           |
 | ----- | ------------------------------------------------------------ | ---------------- |
