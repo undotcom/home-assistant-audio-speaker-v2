@@ -48,6 +48,7 @@ There are no commercially available speakers specifically for use in the Home As
 We want to change that.
 
 Our first project, really more of a proof-of-concept, started with a high end speaker kit. It was expensive.
+https://www.reddit.com/r/homeassistant/comments/1qw1gg6/diy_wifi_bt_audio_speaker_for_home_assistant/
 
 It sounded great!  But nobody was particularly excited to shell out over $250 to build their own speaker. 
 
