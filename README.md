@@ -5,6 +5,14 @@
 ![low_cost_home_assistant_speaker_audio_tts_notifications](images/low_cost_home_assistant_speaker_audio_tts_notifications.jpg)
 *Completed modification of a compact bookshelf speaker for wireless whole home audio using Home Assistant.*
 
+
+
+## See and Hear it
+
+- [35 sec video demo on Reddit - see this speaker, proof-of-concept, and upcoming V3 in action](https://www.reddit.com/user/HouseWaves/comments/1s5jeez/demo_video_tease_starting_lineup_for_diy_home/) 
+
+  
+
 ---
 
 ## Table of Contents
@@ -27,8 +35,8 @@
 - A documented process to easily create your own inexpensive, commercially available passive loudspeaker into a Wi-Fi active speaker for use with Home Assistant.
 - A DIY guide to adding an inexpensive, off-the-shelf ESP32-based controller with integrated DAC, DSP and AMP inside an existing speaker cabinet and flash with open source firmware (Squeezelite, SendSpin, ESPHome).
 - A viable alternative to using Sonos for whole-home, multi-room synchronized audio, streaming music and home automation notifications using Music Assistant.
-- Part of a planned series modifying a range of speakers at multiple price points and corresponding sound quality.
-  — see [What's Next](#whats-next) for planned future builds.
+- **Part of a planned series modifying a range of speakers at multiple price points and corresponding sound quality.**
+  — see [What's Next](#whats-next) for planned future builds for high-fidelity, subwoofer and smart options.
 - An [option to purchase](#option-to-purchase---already-assembled) pre-assembled for those wanting a commercially available speaker. 
 
 **This is NOT:**
