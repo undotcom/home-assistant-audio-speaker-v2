@@ -1,5 +1,12 @@
 # V2 - Inexpensive DIY Wi-Fi & BT speaker for Home Assistant audio; $50 using off-the-shelf parts. 
 
+------------------
+NOTE - 
+
+This repo has been moved. Any updates will only be made to the new repo, [github.com/HouseWaves/home-assistant-audio-speaker-v2](https://github.com/HouseWaves/home-assistant-audio-speaker-v2) beginning APRIL 5, 2026
+------------------
+
+
 ### Version 2. Inexpensive off-the-shelf passive speaker with added ESP32 controller and open source firmware for whole-home synchronized audio and TTS notifications with Home Assistant.
 
 ![low_cost_home_assistant_speaker_audio_tts_notifications](images/low_cost_home_assistant_speaker_audio_tts_notifications.jpg)
