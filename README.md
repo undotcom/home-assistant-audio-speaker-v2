@@ -1,11 +1,4 @@
-# V2 - Inexpensive DIY Wi-Fi & BT speaker for Home Assistant audio; $50 using off-the-shelf parts. 
-
-------------------
-NOTE - 
-
-This repo has been moved. Any updates will only be made to the new repo, [github.com/HouseWaves/home-assistant-audio-speaker-v2](https://github.com/HouseWaves/home-assistant-audio-speaker-v2) beginning APRIL 5, 2026
-------------------
-
+# V2 - Inexpensive DIY Wi-Fi & BT speaker for Home Assistant audio; $60 using off-the-shelf parts. 
 
 ### Version 2. Inexpensive off-the-shelf passive speaker with added ESP32 controller and open source firmware for whole-home synchronized audio and TTS notifications with Home Assistant.
 
@@ -16,7 +9,7 @@ This repo has been moved. Any updates will only be made to the new repo, [github
 
 ## See and Hear it
 
-- [35 sec video demo on Reddit - see this speaker, proof-of-concept, and upcoming V3 in action](https://www.reddit.com/user/HouseWaves/comments/1s5jeez/demo_video_tease_starting_lineup_for_diy_home/) 
+- [35 sec video demo - see this speaker in action](https://www.youtube.com/watch?v=A4HvsUfq0dk)
 
   
 
@@ -44,7 +37,7 @@ This repo has been moved. Any updates will only be made to the new repo, [github
 - A viable alternative to using Sonos for whole-home, multi-room synchronized audio, streaming music and home automation notifications using Music Assistant.
 - **Part of a planned series modifying a range of speakers at multiple price points and corresponding sound quality.**
   — see [What's Next](#whats-next) for planned future builds for high-fidelity, subwoofer and smart options.
-- An [option to purchase pre-assembled](https://gethousewaves.com/)) for those deciding not to DIY. 
+- An [option to purchase](https://gethousewaves.com/) for those wanting one already built. 
 
 **This is NOT:**
 
@@ -58,20 +51,22 @@ This repo has been moved. Any updates will only be made to the new repo, [github
 
 ## Motivation
 
-There are no commercially available speakers specifically for use in the Home Assistant platform. Sure, you can find WiFi and BT speakers that can be integrated into HA, but they are either expensive, proprietary, complicated to integrate, etc., etc.
+There are no commercially available speakers specifically for the Home Assistant platform. Sure, you can find WiFi and BT speakers that can be integrated into HA, but they are generally expensive, proprietary or complicated to integrate, especially if you want TTS
 
-We want to change that.
+I want to change that.
 
-Our first project, really more of a proof-of-concept, started with a high end speaker kit. It was expensive.
+My first project, really more of a proof-of-concept, started with a high end speaker kit. It was expensive.
 https://www.reddit.com/r/homeassistant/comments/1qw1gg6/diy_wifi_bt_audio_speaker_for_home_assistant/
 
 It sounded great!  But nobody was particularly excited to shell out over $250 to build their own speaker. 
 
-We get it.  We hear you.  Something...cheaper, faster to build.
+I get it.  It should be cheaper and maybe easier to build.
 
-Our version 2 started with the lowest cost, passive speaker we could find available at Amazon, Walmart, etc.  $35 for a pair.
+Version 2 started with the lowest cost, passive speaker we could find available at Amazon, Walmart, etc.  $40 for a pair.
 
-This is a single-driver, compact - and very decent sounding - speaker for desktop music and TTS notifications. It's even ideal for larger rooms if you're primary goal is a low cost speaker for just notifications.  Quick and easy to integrate with firmware designed specifically for use with Home Assistant. No lock-ins, proprietary interfaces or custom integrations that may, or may not be around in 2-3 years.
+This is a single-driver, compact - and very decent sounding - speaker for desktop music and TTS notifications. It's even ideal for larger rooms if you're primary goal is a low cost speaker for just notifications.  
+
+We added Sonocotta's ESP32 LOUD board, with an integrated DAC and AMP for under $30.  Quick and easy to integrate with firmware designed specifically for use with Home Assistant. No lock-ins, proprietary interfaces or custom integrations.
 
 
 
@@ -81,17 +76,17 @@ This is a single-driver, compact - and very decent sounding - speaker for deskto
 
 My motivation is not completely altruistic.
 
-I'm hoping to start a company.  During my research, I found commenters on DIY forums asking for assembled options - some even offering to pay OPs to "build me one please,"
+I'm hoping to start a company and develop speakers exclusively for Home Assistant...I want to be the equivalent of RATGDO , but in the whole home audio market for alternatives to Sonos.
 
-So this is my boot strap option with a commitment to remain open source.  I am specifically creating speakers for use exclusively with Home Assistant and based on existing off-the-shelf speaker models that can be easily modified by the DIYer.  For those individuals who would prefer to purchase a speaker fully assembled and tested, well...that's the market I'd like to help with...I want to be the RATGDO of the Sonos market space.
+If you are interested in a pre-assembled version of this speaker, please drop me a note, or visit [GetHouseWaves.com](https://gethousewaves.com/)
 
-My commercial site [GetHouseWaves.com](https://gethousewaves.com/) with details to order fully assembled and tested.
+I also have a newer, dual driver version on the website.  
 
 ---
 
 ## Caveats & Limitations
 
-- You will power using an ESP32 board called "LOUD" by Sonocotta. The volume is more than sufficient for this speaker, but the power is limited. Using an upgraded board (e.g. their "LOUDER" model) could likely damage this speaker at high volumes.
+- You will be using an ESP32 board called "LOUD" by Sonocotta. The power is limited to 3-5W, but this is more than sufficient for this speaker. Using an upgraded board (e.g. their "LOUDER" model) could likely damage this speaker at high volumes.
 
 - Speakers benefit from "run-in" time to loosen the driver suspension and improves audio quality over time. We recommend playing at lower (under 70%) volume settings for at least 100 hours before testing its limits.
 
@@ -103,7 +98,7 @@ My commercial site [GetHouseWaves.com](https://gethousewaves.com/) with details 
 
 ---
 
-Prices shown are approximate USD and do not include shipping, taxes or customs fees.
+Prices shown are approximate USD with shipping, taxes and customs fees.
 
 Speakers are sold in pairs, but other parts are sold individually. Adjust if you plan to build both.
 
@@ -111,9 +106,9 @@ Links are for the actual product I purchased.
 
 | #    | Component                                                    | Qty        | Price | Notes                                                        |
 | ---- | ------------------------------------------------------------ | ---------- | ----- | ------------------------------------------------------------ |
-| 1    | [Saiyin Passive Bookshelf Speakers](https://www.amazon.com/dp/B0DGLMY9SB) | 2 cabinets | $36   |                                                              |
-| 2    | [Sonocotta LOUD ESP32](https://www.elecrow.com/loud-esp32.html) | 1          | $20   | ESP32 with integrated DAC & AMP; <br />no Ethernet module; <br/>optional $5 RPi case to protect the circuit board<br/>**buy two if modifying both speakers.** |
-| 3    | [USB-C Panel Mount Cable](https://www.amazon.com/dp/B09HWSFRP1) | 1          | $10   | **buy two if modifying both speakers.**                      |
+| 1    | [Saiyin Passive Bookshelf Speakers](https://www.amazon.com/dp/B0DGLMY9SB) | 2 cabinets | $40   | sold in pairs, but the $60 total only accounts for one ($20) |
+| 2    | [Sonocotta LOUD ESP32](https://www.elecrow.com/loud-esp32.html) | 1          | $28   | ESP32 with integrated DAC & AMP; <br />no Ethernet module; <br/>optional $5 RPi case to protect the circuit board<br/>**buy two if modifying both speakers.** |
+| 3    | [USB-C Panel Mount Cable](https://www.amazon.com/dp/B09HWSFRP1) | 1          | $12   | **buy two if modifying both speakers.**                      |
 | 4    | Optional back plate                                          | 1          | $1    | If you have access to a 3D printer, print the 1.5" square plate (STL file included).  Otherwise, you can drill a small hole for the cable.<br/> **print two if modifying both speakers.** |
 
 
