@@ -44,7 +44,7 @@ This repo has been moved. Any updates will only be made to the new repo, [github
 - A viable alternative to using Sonos for whole-home, multi-room synchronized audio, streaming music and home automation notifications using Music Assistant.
 - **Part of a planned series modifying a range of speakers at multiple price points and corresponding sound quality.**
   — see [What's Next](#whats-next) for planned future builds for high-fidelity, subwoofer and smart options.
-- An [option to purchase](#option-to-purchase---already-assembled) pre-assembled for those wanting a commercially available speaker. 
+- An [option to purchase pre-assembled](https://gethousewaves.com/)) for those deciding not to DIY. 
 
 **This is NOT:**
 
@@ -85,11 +85,7 @@ I'm hoping to start a company.  During my research, I found commenters on DIY fo
 
 So this is my boot strap option with a commitment to remain open source.  I am specifically creating speakers for use exclusively with Home Assistant and based on existing off-the-shelf speaker models that can be easily modified by the DIYer.  For those individuals who would prefer to purchase a speaker fully assembled and tested, well...that's the market I'd like to help with...I want to be the RATGDO of the Sonos market space.
 
-My commercial site will be [GetHouseWaves.com]() with contact forms and details to order direct.
-
-And at least initially, I will be selling through Etsy and will add links here when they are ready. 
-
-
+My commercial site [GetHouseWaves.com](https://gethousewaves.com/) with details to order fully assembled and tested.
 
 ---
 
